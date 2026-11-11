@@ -51,6 +51,7 @@ function fveny(){
     //16.
     eredmenyDiv.textContent=`${jatekosNev}, ${gombFelirat}`
     
+    
 
 }
 

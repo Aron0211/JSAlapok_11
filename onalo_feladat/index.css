@@ -27,13 +27,17 @@ body {
 
 /* Fejléc stílusa */
 header {
-  /*  */
-  /*  */
-  /*  */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
 }
 
+
 .header-text {
-  /*  */
+  margin-left: 10px;
+  padding: 30px;
   text-align: center;
   margin-bottom: 30px;
   border-bottom: 2px solid var(--kiemeles);
@@ -52,14 +56,15 @@ main {
 }
 
 .cards-container {
-  /*  */
-  /*  */
-  /*  */
-  /*  */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /* Karakterkártyák stílusa */
 .character-card {
+  justify-content: center;
+  margin: 10px;
   background-color: var(--kartya-hatter);
   border: 1px solid var(--szegely);
   border-radius: 8px;
@@ -103,7 +108,7 @@ main {
 
 /* Tulajdonságlap */
 .character-sheet {
-  /*  */
+  margin-right: 10px;
   background-color: var(--tulajdonsaglap-hatter);
   border: 2px solid var(--kiemeles);
   border-radius: 8px;
@@ -131,3 +136,5 @@ main {
 .character-sheet .character-card {
   padding: 5px;
 }
+
+
