@@ -23,7 +23,7 @@
 11. Jelöld ki az `eredmeny` azonosítójú elemet a `getElementById()` metódussal, és tárold az `eredmenyDiv` változóban!
 
 12. Rendelj a gombhoz kattintásra lefutó eseménykezelőt az `addEventListener()` metódussal!
-
+g
 13. Az eseménykezelőben olvasd ki a gomb feliratát a `textContent` tulajdonsággal, és tárold a `gombSzovege` változóban!
 
 14. Ugyanitt olvasd ki a beviteli mező aktuális tartalmát a `value` tulajdonsággal, és tárold a `jatekosNev` változóban!
